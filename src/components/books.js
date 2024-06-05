@@ -10,7 +10,7 @@ function Books(){
     const [bookdata, setdata]=useState([]);
     const searchBook=(e)=>{
         if(e.key==="Enter"){
-            axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+'&key=AIzaSyCpgOQbkFviF1SdftQ4Q6yP3Vw_dcCEDfM'+'&maxResults=10')
+            axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+'&key=YOUR API KEY'+'&maxResults=10')
             .then(res=>setdata(res.data.items))
             .catch(err=>console.log(err))
         }
