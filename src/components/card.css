@@ -1,0 +1,30 @@
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.512);
+    width: 20vw;
+    padding: 5px;
+    border-radius: 10px;
+    overflow-y:scroll;
+}
+.book-img{
+    width:100%;
+    border-radius: 10px;
+    max-height: 60%;
+}
+.book-title{
+    font-size: 18px;
+}
+.mark-book{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+}
+@media screen and (max-width:700px) {
+    .card{
+        width: 40vw;
+        height: 360px;
+    }
+}

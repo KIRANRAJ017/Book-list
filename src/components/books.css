@@ -1,0 +1,54 @@
+.books{
+    padding-bottom: 10vh;
+}
+.my-booklist{
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    margin-left: -40px;
+    margin-top: -55px;
+}
+.search{
+    margin-top: 40px;
+    input{
+        background:none;
+        border: 1px solid white;
+        height: 30px;
+        width: 280px;
+        padding-left:10px;
+        border-radius: 10px;
+        color: white;
+    }
+    input:focus{
+        outline: none;
+    }
+    ::placeholder{
+        color: white;
+    }
+}
+.book-butt{
+    background:none;
+    border: none;
+    font-size: 16px;
+}
+.buttlink{
+    color: white;
+    text-decoration: none;
+}
+.book-mark{
+    position: absolute;
+    margin-left: 5px;
+}
+.src-books{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 10vh;
+}
+@media screen and (max-width:700px) {
+    .src-books{
+        grid-template-columns: repeat(1,auto);
+        justify-content: space-evenly;
+    }
+}
