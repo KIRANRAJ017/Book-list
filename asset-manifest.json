@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KIRANRAJ017/Book-list/static/css/main.55fe4417.css",
+    "main.js": "/KIRANRAJ017/Book-list/static/js/main.cecad989.js",
+    "index.html": "/KIRANRAJ017/Book-list/index.html",
+    "main.55fe4417.css.map": "/KIRANRAJ017/Book-list/static/css/main.55fe4417.css.map",
+    "main.cecad989.js.map": "/KIRANRAJ017/Book-list/static/js/main.cecad989.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55fe4417.css",
+    "static/js/main.cecad989.js"
+  ]
+}
